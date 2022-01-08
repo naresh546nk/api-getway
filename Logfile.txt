@@ -1,0 +1,95 @@
+2022-01-08 07:56:20.421  INFO [API-GETWAY,,] 21000 --- [restartedMain] c.m.apigetway.ApiGetwayNewApplication    : Starting ApiGetwayNewApplication using Java 16.0.2 on LAPTOP-762HISMA with PID 21000 (C:\Users\Naresh kumar\Desktop\Microservices - bkp\cloude-getway\api-getway-new\target\classes started by Naresh kumar in C:\Users\Naresh kumar\Desktop\Microservices - bkp\cloude-getway\api-getway-new)
+2022-01-08 07:56:20.425  INFO [API-GETWAY,,] 21000 --- [restartedMain] c.m.apigetway.ApiGetwayNewApplication    : No active profile set, falling back to default profiles: default
+2022-01-08 07:56:20.482  INFO [API-GETWAY,,] 21000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-08 07:56:20.482  INFO [API-GETWAY,,] 21000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-08 07:56:22.088  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=077709b1-b5a6-3cb9-b1ce-f03edcf360bc
+2022-01-08 07:56:22.432  INFO [API-GETWAY,,] 21000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-08 07:56:22.435  INFO [API-GETWAY,,] 21000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-08 07:56:22.437  INFO [API-GETWAY,,] 21000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-08 07:56:23.592  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-01-08 07:56:23.593  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-01-08 07:56:23.594  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-01-08 07:56:23.594  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-01-08 07:56:23.594  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-01-08 07:56:24.132  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-01-08 07:56:24.348  WARN [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-01-08 07:56:24.691  WARN [API-GETWAY,,] 21000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-01-08 07:56:24.702  INFO [API-GETWAY,,] 21000 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-01-08 07:56:24.918  WARN [API-GETWAY,,] 21000 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-01-08 07:56:25.009  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-01-08 07:56:25.066  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-01-08 07:56:25.072  INFO [API-GETWAY,,] 21000 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-01-08 07:56:25.111  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-01-08 07:56:25.111  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-01-08 07:56:25.112  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-01-08 07:56:25.112  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-01-08 07:56:25.112  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-01-08 07:56:25.112  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-01-08 07:56:25.112  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-01-08 07:56:26.905  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-01-08 07:56:26.911  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-01-08 07:56:26.917  INFO [API-GETWAY,,] 21000 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-01-08 07:56:26.930  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1641608786930 with initial instances count: 1
+2022-01-08 07:56:26.934  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GETWAY with eureka with status UP
+2022-01-08 07:56:26.935  INFO [API-GETWAY,,] 21000 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1641608786935, current=UP, previous=STARTING]
+2022-01-08 07:56:26.937  INFO [API-GETWAY,,] 21000 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GETWAY/LAPTOP-762HISMA:API-GETWAY:9191: registering service...
+2022-01-08 07:56:27.143  INFO [API-GETWAY,,] 21000 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9191
+2022-01-08 07:56:27.144  INFO [API-GETWAY,,] 21000 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9191
+2022-01-08 07:56:27.323  INFO [API-GETWAY,,] 21000 --- [restartedMain] c.m.apigetway.ApiGetwayNewApplication    : Started ApiGetwayNewApplication in 7.476 seconds (JVM running for 8.484)
+2022-01-08 07:56:28.065  INFO [API-GETWAY,,] 21000 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GETWAY/LAPTOP-762HISMA:API-GETWAY:9191 - registration status: 204
+2022-01-08 07:58:30.596  INFO [API-GETWAY,3b11ffde491f2906,3b11ffde491f2906] 21000 --- [reactor-http-nio-3] c.m.apigetway.loging.LogingFilter        : Path of the reques received -> /departments/
+2022-01-08 07:58:31.822  WARN [API-GETWAY,,] 21000 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-01-08 07:58:31.826  WARN [API-GETWAY,,] 21000 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.1.0.jar:3.1.0]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.1.0.jar:3.1.0]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.1.0.jar:3.1.0]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.1.0.jar:3.1.0]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:669) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:645) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:497) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:600) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:372) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1299) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1232) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1120) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1051) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.13.jar:5.3.13]
+	... 9 common frames omitted
+
+2022-01-08 07:58:39.776  INFO [API-GETWAY,a52e882cdda56993,a52e882cdda56993] 21000 --- [reactor-http-nio-3] c.m.apigetway.loging.LogingFilter        : Path of the reques received -> /departments/1
+2022-01-08 08:01:11.281  INFO [API-GETWAY,,] 21000 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-08 08:01:11.300  INFO [API-GETWAY,,] 21000 --- [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GETWAY with eureka with status DOWN
+2022-01-08 08:01:11.302  INFO [API-GETWAY,,] 21000 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1641609071302, current=DOWN, previous=UP]
+2022-01-08 08:01:11.302  INFO [API-GETWAY,,] 21000 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GETWAY/LAPTOP-762HISMA:API-GETWAY:9191: registering service...
+2022-01-08 08:01:11.364  INFO [API-GETWAY,,] 21000 --- [Thread-6] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2022-01-08 08:01:11.603  INFO [API-GETWAY,,] 21000 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GETWAY/LAPTOP-762HISMA:API-GETWAY:9191 - registration status: 204
+2022-01-08 08:01:14.329  INFO [API-GETWAY,,] 21000 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-01-08 08:01:17.352  INFO [API-GETWAY,,] 21000 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-01-08 08:01:17.825  INFO [API-GETWAY,,] 21000 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GETWAY/LAPTOP-762HISMA:API-GETWAY:9191 - deregister  status: 200
+2022-01-08 08:01:17.878  INFO [API-GETWAY,,] 21000 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
